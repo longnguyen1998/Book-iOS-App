@@ -70,32 +70,6 @@ class ChecklistViewController: UITableViewController {
 //    label.text = "\(item.itemID): \(item.text)"
   }
   
-  func itemDetailViewControllerDidCancel(controller: ItemDetailViewController) {
-    dismiss(animated: true, completion: nil)
-  }
-  
-  func itemDetailViewController(controller: ItemDetailViewController, didFinishAddingItem item: ChecklistItem) {
-    let newRowIndex = checklist.items.count
-    
-    checklist.items.append(item)
-    
-    let indexPath = NSIndexPath(row: newRowIndex, section: 0)
-    let indexPaths = [indexPath]
-    tableView.insertRows(at: indexPaths as [IndexPath], with: .automatic)
-    
-    dismiss(animated: true, completion: nil)
-  }
-  
-  func itemDetailViewController(controller: ItemDetailViewController, didFinishEditingItem item: ChecklistItem) {
-//    if let index = find(checklist.items, item) {
-//      let indexPath = NSIndexPath(forRow: index, inSection: 0)
-//      if let cell = tableView.cellForRowAtIndexPath(indexPath) {
-//        configureTextForCell(cell, withChecklistItem: item)
-//      }
-//    }
-//    dismiss(animated: true, completion: nil)
-  }
-  
 
     
     
@@ -103,11 +77,11 @@ class ChecklistViewController: UITableViewController {
             if segue.identifier == "AddItem" {
                 let navigationController = segue.destination as! UINavigationController
                 let controller = navigationController.topViewController as! ItemDetailViewController
-                controller.delegate = self as? ItemDetailViewControllerDelegate
+                controller.delegate = self
             } else if segue.identifier == "EditItem" {
                 let navigationController = segue.destination as! UINavigationController
                 let controller = navigationController.topViewController as! ItemDetailViewController
-                controller.delegate = self as? ItemDetailViewControllerDelegate
+                controller.delegate = self
         
                 if let indexPath = tableView.indexPath(for: sender as! UITableViewCell) {
                 controller.itemToEdit = checklist.items[indexPath.row]
@@ -115,4 +89,33 @@ class ChecklistViewController: UITableViewController {
             }
     }
     
+}
+
+extension ChecklistViewController: ItemDetailViewControllerDelegate {
+      func itemDetailViewControllerDidCancel(controller: ItemDetailViewController) {
+        dismiss(animated: true, completion: nil)
+      }
+      
+      func itemDetailViewController(controller: ItemDetailViewController, didFinishAddingItem item: ChecklistItem) {
+        let newRowIndex = checklist.items.count
+        
+        checklist.items.append(item)
+        
+        let indexPath = NSIndexPath(row: newRowIndex, section: 0)
+        let indexPaths = [indexPath]
+        tableView.insertRows(at: indexPaths as [IndexPath], with: .automatic)
+        
+        dismiss(animated: true, completion: nil)
+      }
+      
+      func itemDetailViewController(controller: ItemDetailViewController, didFinishEditingItem item: ChecklistItem) {
+    //    if let index = find(checklist.items, item) {
+    //      let indexPath = NSIndexPath(forRow: index, inSection: 0)
+    //      if let cell = tableView.cellForRowAtIndexPath(indexPath) {
+    //        configureTextForCell(cell, withChecklistItem: item)
+    //      }
+    //    }
+    //    dismiss(animated: true, completion: nil)
+      }
+
 }
