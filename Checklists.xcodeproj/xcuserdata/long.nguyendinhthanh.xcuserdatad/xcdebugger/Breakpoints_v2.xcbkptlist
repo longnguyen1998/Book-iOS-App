@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D4924CFC-33A6-45B1-9330-FBA8E4FFD221"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Checklists/ItemDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ItemDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - 6982da30a9d06fad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.shouldRemindSwitch.getter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - 605f3f2f272a1fa1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.shouldRemindSwitch.setter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - dd4234120fcb13ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.shouldRemindSwitch.modify : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - d4153ab072f041ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.shouldRemindSwitch.modify : Swift.Optional&lt;__C.UISwitch&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - 1023a8f0c9a33d95"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.init(style: __C.UITableViewStyle) -&gt; Checklists.ItemDetailViewController"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "298">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - 8a8e16dad70ccdcb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Checklists.ItemDetailViewController"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  uuid = "1F302806-A46C-4C68-896C-C2A0FB42A891 - ea3bcc707c801287"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checklists.ItemDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Checklists.ItemDetailViewController&gt;"
+                  moduleName = "Checklists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/long.nguyendinhthanh/Downloads/ChecklistKey/checklists-swift-master/Checklists/ItemDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "313">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8ACCB905-4AE2-49C8-9F09-08A74923B24C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Checklists/AllListsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
